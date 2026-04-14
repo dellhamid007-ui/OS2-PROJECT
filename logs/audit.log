@@ -1,0 +1,16 @@
+[2026-03-14 22:14:46] Generating short report
+[2026-03-14 22:14:46] Short report done – Short report saved to: /home/midou/Desktop/PROJECT OS PART 1/sys_audit_project/scripts/../reports/short_report_Dellali_20260314_221446.txt
+[2026-03-14 22:16:02] Sending email for ./reports/example_short_report.txt
+[2026-03-14 22:16:04] Email sent for ./reports/example_short_report.txt
+[2026-03-14 22:16:39] Generating short report
+[2026-03-14 22:16:39] Short report done – Short report saved to: /home/midou/Desktop/PROJECT OS PART 1/sys_audit_project/scripts/../reports/short_report_Dellali_20260314_221639.txt
+[2026-03-14 22:16:58] Sending email for ./reports/shorty.txt
+[2026-03-14 22:17:01] Email sent for ./reports/shorty.txt
+[2026-03-14 22:32:52] Generating full report
+[2026-03-14 22:32:52] Full report done – Full report saved to: /home/midou/Desktop/PROJECT OS PART 1/sys_audit_project/scripts/../reports/full_report_Dellali_20260314_223252.txt
+[2026-03-14 22:33:29] Starting remote monitor
+[2026-03-14 22:33:32] Remote monitor failed
+[2026-04-13 11:28:23] Generating short report
+[2026-04-13 11:28:23] Short report done – Short report saved to: /home/midou/Desktop/PROJECT OS PART 1/sys_audit_project/scripts/../reports/short_report_Dellali_20260413_112823.txt
+[2026-04-13 11:30:20] Sending email for ./reports/example_short_report.txt
+[2026-04-13 11:30:23] Email sent for ./reports/example_short_report.txt

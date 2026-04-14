@@ -1,0 +1,32 @@
+============================================
+       SYSTEM AUDIT - SHORT REPORT
+============================================
+Date     : Wed Mar 14 10:23:45 2026
+Hostname : student-vm
+============================================
+
+--- OS ---
+Ubuntu 22.04.3 LTS
+Kernel: 5.15.0-91-generic
+
+--- CPU ---
+Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+Cores: 4
+
+--- RAM ---
+Total: 7.7G | Used: 2.1G | Free: 3.4G
+
+--- DISK (summary) ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        50G   12G   36G  25% /
+
+--- NETWORK ---
+192.168.1.105
+127.0.0.1
+
+--- USERS LOGGED IN ---
+student
+
+============================================
+   END OF SHORT REPORT
+============================================

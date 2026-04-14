@@ -1,0 +1,32 @@
+============================================
+       SYSTEM AUDIT - SHORT REPORT
+============================================
+Date     : Mon Apr 13 11:28:23 AM CET 2026
+Hostname : Dellali
+============================================
+
+--- OS ---
+Linux Mint 22.3
+Kernel: 6.17.0-19-generic
+
+--- CPU ---
+AMD Ryzen 5 PRO 7530U with Radeon Graphics
+Cores: 12
+
+--- RAM ---
+Total: 14Gi | Used: 1.7Gi | Free: 11Gi
+
+--- DISK (summary) ---
+total           155G   75G   74G  51% -
+
+--- NETWORK ---
+192.168.43.125
+192.168.122.1
+10.0.3.1
+
+--- USERS LOGGED IN ---
+midou
+
+============================================
+   END OF SHORT REPORT
+============================================
