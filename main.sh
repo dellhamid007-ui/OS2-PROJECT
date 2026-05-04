@@ -45,15 +45,15 @@ print_banner() {
     echo -e "${BLUE}${BOLD}"
     echo "  ╔══════════════════════════════════════════════════════════════╗"
     echo "  ║                                                              ║"
-    echo "  ║    ██╗      █████╗ ███╗   ███╗███████╗                      ║"
-    echo "  ║    ██║     ██╔══██╗████╗ ████║██╔════╝                      ║"
-    echo "  ║    ██║     ███████║██╔████╔██║███████╗                      ║"
-    echo "  ║    ██║     ██╔══██║██║╚██╔╝██║╚════██║                      ║"
-    echo "  ║    ███████╗██║  ██║██║ ╚═╝ ██║███████║                      ║"
-    echo "  ║    ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝                      ║"
+    echo "  ║    ██╗      █████╗ ███╗   ███╗███████╗                       ║"
+    echo "  ║    ██║     ██╔══██╗████╗ ████║██╔════╝                       ║"
+    echo "  ║    ██║     ███████║██╔████╔██║███████╗                       ║"
+    echo "  ║    ██║     ██╔══██║██║╚██╔╝██║╚════██║                       ║"
+    echo "  ║    ███████╗██║  ██║██║ ╚═╝ ██║███████║                       ║"
+    echo "  ║    ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝                       ║"
     echo "  ║                                                              ║"
-    echo "  ║         Linux Audit & Monitoring System  v1.0               ║"
-    echo "  ║       National School of Cyber Security – 2025/2026         ║"
+    echo "  ║         Linux Audit & Monitoring System  v1.0                ║"
+    echo "  ║       National School of Cyber Security – 2025/2026          ║"
     echo "  ║                                                              ║"
     echo "  ╚══════════════════════════════════════════════════════════════╝"
     echo -e "${RESET}"
@@ -77,8 +77,17 @@ print_banner() {
     disk_pct=$(df / | awk 'NR==2 {print $5}' | tr -d '%')
 
     printf "  ${BOLD}  CPU  ${RESET}"; draw_bar "$cpu_pct"
+    if [ $cpu_pct -gt 80 ]; then 
+        echo "CPU USAGE IS TOO HIGH"
+    fi
     printf "  ${BOLD}  RAM  ${RESET}"; draw_bar "$ram_pct"
+    if [ $ram_pct -gt 80 ]; then 
+        echo "MEMORY USAGE IS TOO HIGH"
+    fi
     printf "  ${BOLD}  DISK ${RESET}"; draw_bar "$disk_pct"
+    if [ "$disk_pct" -gt 80 ]; then
+        echo "DISK USAGE IS TOO HIGH"
+    fi
     echo ""
     echo -e "  ${BLUE}──────────────────────────────────────────────────────────────${RESET}"
 }

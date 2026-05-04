@@ -1,0 +1,163 @@
+===== SOFTWARE & OS AUDIT =====
+Date: Mon May  4 17:24:19 CET 2026
+Hostname: rachid-VirtualBox
+
+--- OS INFO ---
+PRETTY_NAME="Ubuntu 24.04.3 LTS"
+VERSION_ID="24.04"
+VERSION="24.04.3 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+Kernel: 6.17.0-20-generic
+Architecture: x86_64
+
+--- INSTALLED PACKAGES ---
+Total packages: 1684
+Last 10 installed:
+yaru-theme-icon 24.04.2-0ubuntu1
+yaru-theme-sound 24.04.2-0ubuntu1
+yelp 42.2-1ubuntu0.24.04.1
+yelp-xsl 42.1-2ubuntu0.24.04.1
+zenity 4.0.1-1build3
+zenity-common 4.0.1-1build3
+zip 3.0-13ubuntu0.2
+zlib1g:amd64 1:1.3.dfsg-3.1ubuntu2.1
+zlib1g-dev:amd64 1:1.3.dfsg-3.1ubuntu2.1
+zstd 1.5.5+dfsg2-2build1.1
+
+--- LOGGED IN USERS ---
+rachid   seat0        May  4 16:24 (login screen)
+rachid   tty2         May  4 16:24 (tty2)
+
+--- RUNNING SERVICES ---
+  UNIT                          LOAD   ACTIVE SUB     DESCRIPTION
+  accounts-daemon.service       loaded active running Accounts Service
+  avahi-daemon.service          loaded active running Avahi mDNS/DNS-SD Stack
+  colord.service                loaded active running Manage, Install and Generate Color Profiles
+  cron.service                  loaded active running Regular background program processing daemon
+  cups-browsed.service          loaded active running Make remote CUPS printers available locally
+  cups.service                  loaded active running CUPS Scheduler
+  dbus.service                  loaded active running D-Bus System Message Bus
+  fwupd.service                 loaded active running Firmware update daemon
+  gdm.service                   loaded active running GNOME Display Manager
+  gnome-remote-desktop.service  loaded active running GNOME Remote Desktop
+  kerneloops.service            loaded active running Tool to automatically collect and submit kernel crash signatures
+  ModemManager.service          loaded active running Modem Manager
+  NetworkManager.service        loaded active running Network Manager
+  polkit.service                loaded active running Authorization Manager
+  power-profiles-daemon.service loaded active running Power Profiles daemon
+  rsyslog.service               loaded active running System Logging Service
+  rtkit-daemon.service          loaded active running RealtimeKit Scheduling Policy Service
+  snapd.service                 loaded active running Snap Daemon
+  ssh.service                   loaded active running OpenBSD Secure Shell server
+
+--- ACTIVE PROCESSES (top 15 by CPU) ---
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+rachid      1311 22.9  4.1 5325084 471156 ?      Ssl  16:24  13:40 /usr/bin/gnome-shell
+rachid      2704  5.9  3.4 1463077460 385836 ?   Sl   16:30   3:09 /usr/share/code/code --type=zygote
+root        4678  1.8  0.0  15184 10880 ?        Ss   17:24   0:00 sshd: rachid [priv]
+rachid      2600  1.6  1.2 50942708 142884 ?     Sl   16:30   0:51 /usr/share/code/code --type=zygote --no-zygote-sandbox
+rachid      2518  1.6  2.0 1461680188 227332 ?   SLl  16:30   0:51 /usr/share/code/code
+rachid      2726  1.3  1.3 1461324724 154816 ?   Sl   16:30   0:41 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --js-flags=--nodecommit_pooled_pages --crashpad-handler-pid=2563 --enable-crash-reporter=11f614c3-d2cc-4159-b021-3ef8e6a68c19,no_channel --user-data-dir=/home/rachid/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16678893773515144769,8534532946325418670,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708991934122588
+rachid      2610  0.6  0.6 33880800 76428 ?      Sl   16:30   0:21 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2563 --enable-crash-reporter=11f614c3-d2cc-4159-b021-3ef8e6a68c19,no_channel --user-data-dir=/home/rachid/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16678893773515144769,8534532946325418670,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041
+rachid      2966  0.2  1.4 1461333744 163060 ?   Sl   16:32   0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --js-flags=--nodecommit_pooled_pages --crashpad-handler-pid=2563 --enable-crash-reporter=11f614c3-d2cc-4159-b021-3ef8e6a68c19,no_channel --user-data-dir=/home/rachid/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16678893773515144769,8534532946325418670,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708998493415531
+rachid      2951  0.1  0.9 1478127096 102984 ?   Sl   16:32   0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --js-flags=--nodecommit_pooled_pages --crashpad-handler-pid=2563 --enable-crash-reporter=11f614c3-d2cc-4159-b021-3ef8e6a68c19,no_channel --user-data-dir=/home/rachid/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16678893773515144769,8534532946325418670,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708997556373682
+root         382  0.1  0.0      0     0 ?        I    16:24   0:03 [kworker/2:3-events]
+root          48  0.1  0.0      0     0 ?        S    16:24   0:03 [ksoftirqd/5]
+root          15  0.0  0.0      0     0 ?        I    16:24   0:02 [rcu_preempt]
+rachid      2867  0.0  0.9 1478102568 105744 ?   Sl   16:31   0:02 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --js-flags=--nodecommit_pooled_pages --crashpad-handler-pid=2563 --enable-crash-reporter=11f614c3-d2cc-4159-b021-3ef8e6a68c19,no_channel --user-data-dir=/home/rachid/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16678893773515144769,8534532946325418670,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833
+rachid      4066  0.0  0.7 1459513272 83952 ?    Sl   17:15   0:00 /usr/share/code/code /usr/share/code/resources/app/extensions/markdown-language-features/dist/serverWorkerMain --node-ipc --clientProcessId=2966
+root        4051  0.0  0.0      0     0 ?        I    17:15   0:00 [kworker/u27:4-flush-8:0]
+
+--- OPEN PORTS ---
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:38349      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:49179         [::]:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      128          0.0.0.0:1645       0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+tcp   LISTEN 0      128             [::]:1645          [::]:*          
+
+===== HARDWARE AUDIT =====
+Date: Mon May  4 17:24:20 CET 2026
+Hostname: rachid-VirtualBox
+
+--- CPU ---
+Architecture:                            x86_64
+CPU(s):                                  6
+On-line CPU(s) list:                     0-5
+Model name:                              12th Gen Intel(R) Core(TM) i7-1260P
+Core(s) per socket:                      6
+NUMA node0 CPU(s):                       0-5
+
+--- RAM ---
+Mem:            10Gi       1.8Gi       6.2Gi        74Mi       3.0Gi       8.9Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+--- DISK ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.1G  1.8M  1.1G   1% /run
+/dev/sda2       126G   19G  102G  16% /
+tmpfs           5.4G   40M  5.4G   1% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.1G  132K  1.1G   1% /run/user/1000
+
+Partitions:
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0    7:0    0     4K  1 loop /snap/bare/5
+loop1    7:1    0    74M  1 loop /snap/core22/2411
+loop2    7:2    0  66.8M  1 loop /snap/core24/1587
+loop3    7:3    0    74M  1 loop /snap/core22/2292
+loop4    7:4    0  66.8M  1 loop /snap/core24/1499
+loop5    7:5    0  16.4M  1 loop /snap/firmware-updater/216
+loop6    7:6    0 273.7M  1 loop /snap/firefox/8107
+loop7    7:7    0 254.6M  1 loop /snap/firefox/7901
+loop8    7:8    0  18.5M  1 loop /snap/firmware-updater/210
+loop9    7:9    0 516.2M  1 loop /snap/gnome-42-2204/226
+loop10   7:10   0 531.4M  1 loop /snap/gnome-42-2204/247
+loop11   7:11   0 606.1M  1 loop /snap/gnome-46-2404/153
+loop12   7:12   0   395M  1 loop /snap/mesa-2404/1165
+loop13   7:13   0  10.8M  1 loop /snap/snap-store/1270
+loop14   7:14   0  15.5M  1 loop /snap/snap-store/1310
+loop15   7:15   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop16   7:16   0  50.9M  1 loop /snap/snapd/25577
+loop17   7:17   0  48.1M  1 loop /snap/snapd/25935
+loop18   7:18   0   576K  1 loop /snap/snapd-desktop-integration/343
+loop19   7:19   0   580K  1 loop /snap/snapd-desktop-integration/361
+sda      8:0    0   128G  0 disk 
+|-sda1   8:1    0     1M  0 part 
+`-sda2   8:2    0   128G  0 part /
+sr0     11:0    1  1024M  0 rom  
+
+--- GPU ---
+00:02.0 VGA compatible controller: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter
+
+--- NETWORK INTERFACES ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enp0s3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    link/ether 08:00:27:29:51:04 brd ff:ff:ff:ff:ff:ff
+    inet 10.224.97.173/24 brd 10.224.97.255 scope global dynamic noprefixroute enp0s3
+       valid_lft 28sec preferred_lft 28sec
+
+--- MAC ADDRESSES ---
+    link/ether 08:00:27:29:51:04 brd ff:ff:ff:ff:ff:ff
+
+--- MOTHERBOARD ---
+Board: VirtualBox
+Vendor: Oracle Corporation
+
+--- USB DEVICES ---
+Bus 001 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+Bus 001 Device 002: ID 80ee:0021 VirtualBox USB Tablet
+Bus 002 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
